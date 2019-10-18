@@ -6,22 +6,22 @@ Vue.use(VueRouter);
 const routes = [
   {
     name: 'MainPage',
-    route: '/',
+    path: '/',
     component: () => import('@/views/MainPage'),
   },
   {
     name: 'Formation',
-    route: '/formation',
+    path: '/formation',
     component: () => import('@/views/Formation'),
   },
   {
     name: 'Companies',
-    route: '/companies',
+    path: '/companies',
     component: () => import('@/views/Companies'),
   },
   {
     name: 'NTab',
-    route: '/n-tab',
+    path: '/n-tab',
     component: () => import('@/views/NTab'),
   },
   {
