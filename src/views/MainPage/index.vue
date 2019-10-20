@@ -30,7 +30,7 @@
             <v-slide-x-transition>
               <v-flex xs5 v-if="!isMap">
                 <v-layout class="justify-end">
-                  <diagram value="33" />
+                  <diagram value="41.7" />
                 </v-layout>
               </v-flex>
             </v-slide-x-transition>
@@ -42,26 +42,26 @@
             <v-slide-x-reverse-transition>
               <v-flex xs4 v-if="!isMap">
                 <v-layout column>
-                  <v-flex class="display-1 font-weight-light text-center" style="width: 300px">
+                  <v-flex class="display-1 font-weight-light text-center" style="width: 500px">
                     <v-layout wrap justify-center>
-                      <v-flex xs12>13% поступление от акцизов<v-divider /></v-flex>
+                      <v-flex xs12>Налог на добычу полезных ископаемых<v-divider /></v-flex>
                       <v-divider vertical style="height: 80px; margin-left: 90px;" />
                     </v-layout>
                   </v-flex>
                   
                   <v-flex>
                     <v-layout>
-                      <div class="display-2 font-weight-light">5,9 трлн руб.</div>
-                      <v-divider class="mt-7" />
-                      <div class="display-1 font-weight-light"><v-divider vertical /> 8% ВВП</div>
+                      <div class="display-2 font-weight-light">4,78 трлн руб.</div>
+                      <!-- <v-divider class="mt-7" />
+                      <div class="display-1 font-weight-light"><v-divider vertical /> 8% ВВП</div> -->
                     </v-layout>
                   </v-flex>
 
-                  <v-flex class="display-1 font-weight-light text-center mt-5" style="width: 300px">
+                  <v-flex class="display-1 font-weight-light text-center mt-5" style="width: 500px">
                     <v-layout wrap justify-center>
                       <v-divider vertical style="height: 80px; margin-right: 97px;" />
                       <v-flex xs12>
-                        <v-divider /> 13% поступление от акцизов
+                        <v-divider /> Вывозные таможенные пошлины на природный газ
                       </v-flex>
                     </v-layout>
                   </v-flex>
@@ -132,6 +132,6 @@ export default {
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: #ffffff6c;
+    background-color: #ffffffd7;
   }
 </style>
