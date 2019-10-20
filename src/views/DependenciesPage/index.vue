@@ -1,22 +1,13 @@
 <template>
-  <v-layout justify-center align-center wrap class="px-6">
+  <v-layout align-center justify-space-between wrap class="mt-5 pa-10">
     <v-flex xs12 class="display-1 font-weight-light">Факторный анализ доходов российской бюджетной системы</v-flex>
     <v-flex xs5>
       <dependencies-chart />
     </v-flex>
-    <!-- <v-flex xs5>
-      <v-simple-table>
-        <template #default>
-          <thead>
-            <tr>
-              <th v-for="header in headers" :key="header">{{ header }}</th>
-            </tr>
-          </thead>
+    <v-flex xs7 class="pl-12">
+      <v-img :src="require('@/assets/table.jpg')"  />
+    </v-flex>
 
-          <tbody></tbody>
-        </template>
-      </v-simple-table>
-    </v-flex> -->
   </v-layout>
 </template>
 
