@@ -15,9 +15,9 @@ const routes = [
     component: () => import('@/views/DependenciesPage'),
   },
   {
-    name: 'Formation',
-    path: '/formation',
-    component: () => import('@/views/Formation'),
+    name: 'Prognose',
+    path: '/prognose',
+    component: () => import('@/views/Prognose'),
   },
   {
     name: 'Companies',
