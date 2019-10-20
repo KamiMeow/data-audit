@@ -10,6 +10,11 @@ const routes = [
     component: () => import('@/views/MainPage'),
   },
   {
+    name: 'DependenciesPage',
+    path: '/dependencies',
+    component: () => import('@/views/DependenciesPage'),
+  },
+  {
     name: 'Formation',
     path: '/formation',
     component: () => import('@/views/Formation'),
