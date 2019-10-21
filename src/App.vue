@@ -7,9 +7,7 @@
       <v-content>
         <v-container class="pa-0 pt-9 fill-height" fluid>
           <!-- <scroll-button class="scroll-button" /> -->
-          <v-slide-y-transition>
-            <router-view />
-          </v-slide-y-transition>
+          <router-view />
         </v-container>
       </v-content>
     </v-app>

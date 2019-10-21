@@ -13,7 +13,7 @@
       </div>
     </v-progress-circular>
 
-    <div class="diagram__title display-1 font-weight-light ml-n12">Доля доходов в бюджете</div>
+    <div class="diagram__title display-1 font-weight-light ml-n8">Доля доходов в бюджете</div>
   </v-layout>
 </template>
 
