@@ -95,7 +95,7 @@ export default {
 
     async initMarkers() {
       console.log('kakogo')
-      const objects = (await axios.get('https://resourceprojects.org/api/country?countryName=Russian+Federation')).data.result[1];
+      const objects = (await axios.get('api_region')).data.result[1];
 
       this.objectCompanyManager = new ymaps.ObjectManager();
 

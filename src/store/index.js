@@ -16,8 +16,6 @@ export default new Vuex.Store({
   },
   actions: {
     async loadRegions({ commit }) {
-      const companies = (await axios.get('https://resourceprojects.org/api/country?countryName=Russian+Federation')).data.result[3];
-      const regions = (await axios.get('https://resourceprojects.org/api/country?countryName=Russian+Federation')).data.result[1];
 
       commit('SET_COMPANIES', companies);
       commit('SET_REGIONS', regions);

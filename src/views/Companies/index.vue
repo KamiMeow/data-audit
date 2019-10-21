@@ -129,7 +129,7 @@ export default {
     },
 
     async initMarkers() {
-      this.objects = (await axios.get('https://resourceprojects.org/api/country?countryName=Russian+Federation')).data.result[1];
+      this.objects = (await axios.get('get_country')).data.result[1];
       console.log(this.objects);
 
       this.rus = (await this.getTranslate(this.objects.map(o => o.reportingCompany[0]).join('|')))[0].split('|');
@@ -161,7 +161,7 @@ export default {
       return result.data.text;
     },
     async loadCompanyData() {
-      this.company = (await axios.get('https://resourceprojects.org/api/company?company=' + this.selectedCompany.split(' ').join('+'))).data;
+      this.company = (await axios.get('get_company' + this.selectedCompany.split(' ').join('+'))).data;
       console.log(this.company);
     }
   },
